@@ -41,7 +41,6 @@ class userscontroller extends Controller
 
     }
 
-	
     public function adminsignin()
 
     {
@@ -1472,6 +1471,7 @@ $msg='';
 
     }
 
+	
     public function adminlogout()
     {
         Session::flush();
