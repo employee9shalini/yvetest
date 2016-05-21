@@ -1,0 +1,9 @@
+<<<<<<< HEAD
+* text=auto
+*.css linguist-vendored
+*.less linguist-vendored
+=======
+* text=auto
+*.css linguist-vendored
+*.less linguist-vendored
+>>>>>>> e904b28ab01fe9721ab07f907c37330717bebac0

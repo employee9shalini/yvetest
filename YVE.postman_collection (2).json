@@ -1,0 +1,2042 @@
+<<<<<<< HEAD
+{
+	"id": "cd26b4d5-b970-c2fa-803f-5116858dfe93",
+	"name": "YVE",
+	"description": "",
+	"order": [
+		"5eab7a1c-eef8-07e2-dc9c-6ed12e909079",
+		"a0d0123f-95aa-0ae3-8814-969d6a371fa7",
+		"6716bc77-1050-0cd1-4fe7-bafd736fc546",
+		"880a1b7b-5549-4f11-e5bc-0f1ed49433f6",
+		"3f4b57c1-9c6e-7996-a80c-d6e97222a900",
+		"8eec8292-818b-364c-f6ae-3592112ba615",
+		"1478d4be-4e77-2aa8-9055-ab2e1cff77ba",
+		"50ed26a4-45d9-68fb-3ca9-b2336aac48b8",
+		"c722887e-5f4a-0801-d1e1-97b5c9413677",
+		"35bfbd01-ac84-135c-45a7-fa7348711553",
+		"fcd157c2-f6f4-40d2-79e0-ef65a9c381c8",
+		"51fda02a-56c1-6c85-eaef-0cc6bb1b7fb8",
+		"92b6135a-0977-c571-36c7-4d4fc60b4336",
+		"1d42e200-2926-dfeb-9537-c3fb94a7b368",
+		"e0425190-028d-e490-2b9e-76482a3e9c78",
+		"48056ffa-32f9-4a0d-d2ee-213fb02c9e85",
+		"e0c9a0ef-2614-5651-2b1e-6fe48b8ef24b",
+		"f6cf3325-4646-00c1-c105-d087d9c3e947",
+		"4ccaa5b5-70c6-f599-09f4-e11a28f140eb",
+		"3577a1e5-fcca-9af3-fe5a-c4a275440c8e",
+		"7ffec323-283e-cfee-a0c1-0d76426dff9d",
+		"21f0a6fb-570b-9f22-d6f4-83b405db4b69",
+		"264adb61-7c8e-2bc9-ab3b-ee10823fc8d3",
+		"1b349236-5535-520c-cc0a-838caad0b201",
+		"d7756054-752d-9b41-6bf6-4a31580adeef",
+		"a5c927b0-61e0-8e93-ec66-7d756846d37b",
+		"1ee79771-da97-be0c-5b43-cb41720e9cbb",
+		"ac5ed095-5682-a6b0-135a-dcc33c3ff349"
+	],
+	"folders": [],
+	"timestamp": 0,
+	"owner": "528223",
+	"remoteLink": "https://www.getpostman.com/collections/a09666928b5cea8a3ffd",
+	"public": false,
+	"requests": [
+		{
+			"id": "1478d4be-4e77-2aa8-9055-ab2e1cff77ba",
+			"headers": "Token: 7c7ace4fc482e1715ec58331a2f6e810\n",
+			"url": "{{baseurl}}/get_my_schedule?timezone=Asia/Calcutta",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "first_name",
+					"value": "har",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "last_name",
+					"value": "Kaur",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1459257943865,
+			"name": "get_my_schedule",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93"
+		},
+		{
+			"id": "1b349236-5535-520c-cc0a-838caad0b201",
+			"headers": "Token: 7c7ace4fc482e1715ec58331a2f6e810\n",
+			"url": "{{baseurl}}/save_payment_info",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "session_id",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "payment_method_id",
+					"value": "3",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "paypal_transaction_id",
+					"value": "''",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "card_id",
+					"value": "''",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "currency_type",
+					"value": "usd",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "credit_qty",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "payment_date",
+					"value": "''",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1462172729672,
+			"name": "save_payment_info",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93",
+			"responses": []
+		},
+		{
+			"id": "1d42e200-2926-dfeb-9537-c3fb94a7b368",
+			"headers": "Token: f64a4cc6bdcccb6bba18de2d351b0260\n",
+			"url": "{{baseurl}}/get_coach_reviews?page_no=1&timezone=Asia/Calcutta&coach_id=5",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1448515379471,
+			"name": "get_coach_reviews",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93",
+			"responses": []
+		},
+		{
+			"id": "1ee79771-da97-be0c-5b43-cb41720e9cbb",
+			"headers": "Token: 7c7ace4fc482e1715ec58331a2f6e810\n",
+			"url": "{{baseurl}}/select_payment_method_default",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "payment_method_id",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "card_id",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1463121066114,
+			"name": "select_payment_method_default",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93",
+			"responses": []
+		},
+		{
+			"id": "21f0a6fb-570b-9f22-d6f4-83b405db4b69",
+			"headers": "Token: 7c7ace4fc482e1715ec58331a2f6e810\n",
+			"url": "{{baseurl}}/save_reviews",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "coach_id",
+					"value": "445",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "review",
+					"value": "excellent",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "rating",
+					"value": "5",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1462172685530,
+			"name": "save_reviews",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93",
+			"responses": []
+		},
+		{
+			"id": "264adb61-7c8e-2bc9-ab3b-ee10823fc8d3",
+			"headers": "Token: 7c7ace4fc482e1715ec58331a2f6e810\n",
+			"url": "{{baseurl}}/search_coaches?page_no=1&timezone=Europe/London&search_text=har",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "user_email",
+					"value": "har.client@gmail.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_pwd",
+					"value": "123",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1462172703433,
+			"name": "get_coaches_for_searched_text",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93",
+			"responses": []
+		},
+		{
+			"id": "3577a1e5-fcca-9af3-fe5a-c4a275440c8e",
+			"headers": "Token: f64a4cc6bdcccb6bba18de2d351b0260\n",
+			"url": "{{baseurl}}/delete_credit_card_info",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "card_id",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1448950456342,
+			"name": "delete_credit_card_info",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93",
+			"responses": []
+		},
+		{
+			"id": "35bfbd01-ac84-135c-45a7-fa7348711553",
+			"headers": "Token: 7c7ace4fc482e1715ec58331a2f6e810\n",
+			"url": "{{baseurl}}/get_my_coaches?page_no=1&timezone=Asia/Kolkata",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "coach_id",
+					"value": "445",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "review",
+					"value": "excellent",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "rating",
+					"value": "5",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1459263333026,
+			"name": "get_my_coaches",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93"
+		},
+		{
+			"id": "3f4b57c1-9c6e-7996-a80c-d6e97222a900",
+			"headers": "token: 7c7ace4fc482e1715ec58331a2f6e810\n",
+			"url": "{{baseurl}}/get_favourite_coaches?page_no=1&timezone=Asia/Kolkata",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "coach_id",
+					"value": "184",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "slot_id",
+					"value": "177",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1459251775412,
+			"name": "get_favourite_coaches",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93"
+		},
+		{
+			"id": "48056ffa-32f9-4a0d-d2ee-213fb02c9e85",
+			"headers": "Token: deb3bab2a72fc0eca99fa15b371a571c\n",
+			"url": "{{baseurl}}/save_credit_card_info",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "card_type",
+					"value": "American Express",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cardholder_name",
+					"value": "julia adatum",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "card_number",
+					"value": "434582246312347",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "expiry_date",
+					"value": "03.06.2022",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cvv_number",
+					"value": "167",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1462181411661,
+			"name": "save_credit_card_info",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93",
+			"responses": []
+		},
+		{
+			"id": "4ccaa5b5-70c6-f599-09f4-e11a28f140eb",
+			"headers": "Token: 7c7ace4fc482e1715ec58331a2f6e810\n",
+			"url": "{{baseurl}}/get_proposed_coaches?category_id=2&page_no=1&timezone=Europe/London",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "user_email",
+					"value": "har@agicent.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_pwd",
+					"value": "123",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1462799107397,
+			"name": "get_proposed_coached",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93"
+		},
+		{
+			"id": "50ed26a4-45d9-68fb-3ca9-b2336aac48b8",
+			"headers": "Token: 0bf17756e7a8a73a28d9d7180f7111c1\n",
+			"url": "{{baseurl}}/get_timeline?timezone=Asia/Kolkatta&page_no=1",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "first_name",
+					"value": "har",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "last_name",
+					"value": "Kaur",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1456482565576,
+			"name": "get_timeline",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93"
+		},
+		{
+			"id": "51fda02a-56c1-6c85-eaef-0cc6bb1b7fb8",
+			"headers": "Token: deb3bab2a72fc0eca99fa15b371a571c\n",
+			"url": "{{baseurl}}/make_appointment?timezone=Asia/Calcutta",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "coach_id",
+					"value": "441",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "slot_id",
+					"value": "346",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1462944872484,
+			"name": "make_appointment",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93",
+			"responses": []
+		},
+		{
+			"id": "5eab7a1c-eef8-07e2-dc9c-6ed12e909079",
+			"headers": "",
+			"url": "{{baseurl}}/user_signup_via_email",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "user_email",
+					"value": "har3@agicent.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_pwd",
+					"value": "123",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_phone",
+					"value": "9876543210",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "first_name",
+					"value": "har",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "last_name",
+					"value": "kaur",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455864286025,
+			"name": "user_signup_via_email",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93"
+		},
+		{
+			"id": "6716bc77-1050-0cd1-4fe7-bafd736fc546",
+			"headers": "",
+			"url": "{{baseurl}}/send_forgot_pwd_link",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "user_email",
+					"value": "harvinder.kaur@agicent.com",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1456395291523,
+			"name": "send_forgot_pwd_link",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93"
+		},
+		{
+			"id": "7ffec323-283e-cfee-a0c1-0d76426dff9d",
+			"headers": "Token: 7c7ace4fc482e1715ec58331a2f6e810\n",
+			"url": "{{baseurl}}/save_session_info",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "slot_id",
+					"value": "3",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "coach_id",
+					"value": "7",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "client_id",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "start_dt",
+					"value": "2015-11-25 15:00:00",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "end_dt",
+					"value": "2015-11-25 16:00:00",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "notes",
+					"value": "abc",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1462172838641,
+			"name": "save_session_info",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93",
+			"responses": []
+		},
+		{
+			"id": "880a1b7b-5549-4f11-e5bc-0f1ed49433f6",
+			"headers": "",
+			"url": "{{baseurl}}/get_coach_categories",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "user_email",
+					"value": "harvinder.kaur@agicent.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_pwd",
+					"value": "harv",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1450520980571,
+			"name": "get_coach_categories",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93"
+		},
+		{
+			"id": "8eec8292-818b-364c-f6ae-3592112ba615",
+			"headers": "Token: f64a4cc6bdcccb6bba18de2d351b0260\n",
+			"url": "{{baseurl}}/get_my_reviews?page_no=1&timezone=Asia/Calcutta",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "first_name",
+					"value": "har",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "last_name",
+					"value": "Kaur",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "biography_text",
+					"value": "Software developer",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1450521039092,
+			"name": "get_my_reviews",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93"
+		},
+		{
+			"id": "92b6135a-0977-c571-36c7-4d4fc60b4336",
+			"headers": "Token: 7c7ace4fc482e1715ec58331a2f6e810\n",
+			"url": "{{baseurl}}/get_coach_schedule?timezone=asia/kolkata&coach_id=18&date_schedule=28-02-2016 13:24:00",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "user_email",
+					"value": "har.client@gmail.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_pwd",
+					"value": "123",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1462172847049,
+			"name": "get_coach_schedule",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93",
+			"responses": []
+		},
+		{
+			"id": "a0d0123f-95aa-0ae3-8814-969d6a371fa7",
+			"headers": "",
+			"url": "{{baseurl}}/user_signin_via_email",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "user_email",
+					"value": "singhnavjot160@gmail.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_pwd",
+					"value": "55555",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1462859954185,
+			"name": "user_signin_via_email",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93"
+		},
+		{
+			"id": "a5c927b0-61e0-8e93-ec66-7d756846d37b",
+			"headers": "Token: 7c7ace4fc482e1715ec58331a2f6e810\n",
+			"url": "{{baseurl}}/set_coach_favourite",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "coach_id",
+					"value": "445",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "favourite_flag",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1462172833082,
+			"name": "set_favourite",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93",
+			"responses": []
+		},
+		{
+			"id": "ac5ed095-5682-a6b0-135a-dcc33c3ff349",
+			"headers": "Token: 7c7ace4fc482e1715ec58331a2f6e810\n",
+			"url": "{{baseurl}}/save_mentality_match",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "answers",
+					"value": "{\"ans1\":\"Female\",\"ans2\":\"NLP,MBTI\",\"ans3\":\"Yes\",\"ans4\":\"No\",\"ans5\":\"Yes\",\"ans6\":\"No\",\"ans7\":\"Yes\",\"ans8\":\"No\",\"ans8\":\"Yes\",\"ans9\":\"Leadership\",\"ans10\":\"30+\",\"ans11\":\"English\"}",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1462172828484,
+			"name": "save_mentality_match",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93",
+			"responses": []
+		},
+		{
+			"id": "c722887e-5f4a-0801-d1e1-97b5c9413677",
+			"headers": "Token: 7c7ace4fc482e1715ec58331a2f6e810\n",
+			"url": "{{baseurl}}/get_all_coaches?page_no=1&timezone=Europe/London",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "user_email",
+					"value": "ravindra.gupta@agicent.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_pwd",
+					"value": "12345678",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1461908945590,
+			"name": "get_all_coaches",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93"
+		},
+		{
+			"id": "d7756054-752d-9b41-6bf6-4a31580adeef",
+			"headers": "Token: 7c7ace4fc482e1715ec58331a2f6e810\n",
+			"url": "{{baseurl}}/update_profile",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "first_name",
+					"value": "harvi",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "last_name",
+					"value": "cl",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1462172835892,
+			"name": "update_profile",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93",
+			"responses": []
+		},
+		{
+			"id": "e0425190-028d-e490-2b9e-76482a3e9c78",
+			"headers": "Token: 7c7ace4fc482e1715ec58331a2f6e810\n",
+			"url": "{{baseurl}}/get_payment_methods",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "card_type",
+					"value": "American Express",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cardholder_name",
+					"value": "julia adatum",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "card_number",
+					"value": "434582246312347",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "expiry_date",
+					"value": "03.06.2022",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cvv_number",
+					"value": "167",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1463205031930,
+			"name": "get_payment_methods",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93",
+			"responses": []
+		},
+		{
+			"id": "e0c9a0ef-2614-5651-2b1e-6fe48b8ef24b",
+			"headers": "Token: 7c7ace4fc482e1715ec58331a2f6e810\n",
+			"url": "{{baseurl}}/save_paypal_info",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "transaction_token",
+					"value": "12234asadweqw",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "metadata",
+					"value": "12345",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1462176336018,
+			"name": "save_paypal_info",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93",
+			"responses": []
+		},
+		{
+			"id": "f6cf3325-4646-00c1-c105-d087d9c3e947",
+			"headers": "Token: 7c7ace4fc482e1715ec58331a2f6e810\n",
+			"url": "{{baseurl}}/get_client_profile_data",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "user_email",
+					"value": "harvinder.kaur@agicent.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_pwd",
+					"value": "harvinder",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1462172582130,
+			"name": "get_client_profile_data",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93"
+		},
+		{
+			"id": "fcd157c2-f6f4-40d2-79e0-ef65a9c381c8",
+			"headers": "Token: 147122ef2d6c6959d86dec20c032e495\n",
+			"url": "{{baseurl}}/get_credits?timezone=Asia/Calcutta",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "coach_id",
+					"value": "15",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "slot_id",
+					"value": "4",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1461226261761,
+			"name": "get_credits",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93",
+			"responses": []
+		}
+	]
+=======
+{
+	"id": "cd26b4d5-b970-c2fa-803f-5116858dfe93",
+	"name": "YVE",
+	"description": "",
+	"order": [
+		"5eab7a1c-eef8-07e2-dc9c-6ed12e909079",
+		"a0d0123f-95aa-0ae3-8814-969d6a371fa7",
+		"6716bc77-1050-0cd1-4fe7-bafd736fc546",
+		"880a1b7b-5549-4f11-e5bc-0f1ed49433f6",
+		"3f4b57c1-9c6e-7996-a80c-d6e97222a900",
+		"8eec8292-818b-364c-f6ae-3592112ba615",
+		"1478d4be-4e77-2aa8-9055-ab2e1cff77ba",
+		"50ed26a4-45d9-68fb-3ca9-b2336aac48b8",
+		"c722887e-5f4a-0801-d1e1-97b5c9413677",
+		"35bfbd01-ac84-135c-45a7-fa7348711553",
+		"fcd157c2-f6f4-40d2-79e0-ef65a9c381c8",
+		"51fda02a-56c1-6c85-eaef-0cc6bb1b7fb8",
+		"92b6135a-0977-c571-36c7-4d4fc60b4336",
+		"1d42e200-2926-dfeb-9537-c3fb94a7b368",
+		"e0425190-028d-e490-2b9e-76482a3e9c78",
+		"48056ffa-32f9-4a0d-d2ee-213fb02c9e85",
+		"e0c9a0ef-2614-5651-2b1e-6fe48b8ef24b",
+		"f6cf3325-4646-00c1-c105-d087d9c3e947",
+		"4ccaa5b5-70c6-f599-09f4-e11a28f140eb",
+		"3577a1e5-fcca-9af3-fe5a-c4a275440c8e",
+		"7ffec323-283e-cfee-a0c1-0d76426dff9d",
+		"21f0a6fb-570b-9f22-d6f4-83b405db4b69",
+		"264adb61-7c8e-2bc9-ab3b-ee10823fc8d3",
+		"1b349236-5535-520c-cc0a-838caad0b201",
+		"d7756054-752d-9b41-6bf6-4a31580adeef",
+		"a5c927b0-61e0-8e93-ec66-7d756846d37b",
+		"1ee79771-da97-be0c-5b43-cb41720e9cbb",
+		"ac5ed095-5682-a6b0-135a-dcc33c3ff349"
+	],
+	"folders": [],
+	"timestamp": 0,
+	"owner": "528223",
+	"remoteLink": "https://www.getpostman.com/collections/a09666928b5cea8a3ffd",
+	"public": false,
+	"requests": [
+		{
+			"id": "1478d4be-4e77-2aa8-9055-ab2e1cff77ba",
+			"headers": "Token: 7c7ace4fc482e1715ec58331a2f6e810\n",
+			"url": "{{baseurl}}/get_my_schedule?timezone=Asia/Calcutta",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "first_name",
+					"value": "har",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "last_name",
+					"value": "Kaur",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1459257943865,
+			"name": "get_my_schedule",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93"
+		},
+		{
+			"id": "1b349236-5535-520c-cc0a-838caad0b201",
+			"headers": "Token: 7c7ace4fc482e1715ec58331a2f6e810\n",
+			"url": "{{baseurl}}/save_payment_info",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "session_id",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "payment_method_id",
+					"value": "3",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "paypal_transaction_id",
+					"value": "''",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "card_id",
+					"value": "''",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "currency_type",
+					"value": "usd",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "credit_qty",
+					"value": "2",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "payment_date",
+					"value": "''",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1462172729672,
+			"name": "save_payment_info",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93",
+			"responses": []
+		},
+		{
+			"id": "1d42e200-2926-dfeb-9537-c3fb94a7b368",
+			"headers": "Token: f64a4cc6bdcccb6bba18de2d351b0260\n",
+			"url": "{{baseurl}}/get_coach_reviews?page_no=1&timezone=Asia/Calcutta&coach_id=5",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1448515379471,
+			"name": "get_coach_reviews",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93",
+			"responses": []
+		},
+		{
+			"id": "1ee79771-da97-be0c-5b43-cb41720e9cbb",
+			"headers": "Token: 7c7ace4fc482e1715ec58331a2f6e810\n",
+			"url": "{{baseurl}}/select_payment_method_default",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "payment_method_id",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "card_id",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1463121066114,
+			"name": "select_payment_method_default",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93",
+			"responses": []
+		},
+		{
+			"id": "21f0a6fb-570b-9f22-d6f4-83b405db4b69",
+			"headers": "Token: 7c7ace4fc482e1715ec58331a2f6e810\n",
+			"url": "{{baseurl}}/save_reviews",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "coach_id",
+					"value": "445",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "review",
+					"value": "excellent",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "rating",
+					"value": "5",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1462172685530,
+			"name": "save_reviews",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93",
+			"responses": []
+		},
+		{
+			"id": "264adb61-7c8e-2bc9-ab3b-ee10823fc8d3",
+			"headers": "Token: 7c7ace4fc482e1715ec58331a2f6e810\n",
+			"url": "{{baseurl}}/search_coaches?page_no=1&timezone=Europe/London&search_text=har",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "user_email",
+					"value": "har.client@gmail.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_pwd",
+					"value": "123",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1462172703433,
+			"name": "get_coaches_for_searched_text",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93",
+			"responses": []
+		},
+		{
+			"id": "3577a1e5-fcca-9af3-fe5a-c4a275440c8e",
+			"headers": "Token: f64a4cc6bdcccb6bba18de2d351b0260\n",
+			"url": "{{baseurl}}/delete_credit_card_info",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "card_id",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1448950456342,
+			"name": "delete_credit_card_info",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93",
+			"responses": []
+		},
+		{
+			"id": "35bfbd01-ac84-135c-45a7-fa7348711553",
+			"headers": "Token: 7c7ace4fc482e1715ec58331a2f6e810\n",
+			"url": "{{baseurl}}/get_my_coaches?page_no=1&timezone=Asia/Kolkata",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "coach_id",
+					"value": "445",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "review",
+					"value": "excellent",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "rating",
+					"value": "5",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1459263333026,
+			"name": "get_my_coaches",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93"
+		},
+		{
+			"id": "3f4b57c1-9c6e-7996-a80c-d6e97222a900",
+			"headers": "token: 7c7ace4fc482e1715ec58331a2f6e810\n",
+			"url": "{{baseurl}}/get_favourite_coaches?page_no=1&timezone=Asia/Kolkata",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "coach_id",
+					"value": "184",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "slot_id",
+					"value": "177",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1459251775412,
+			"name": "get_favourite_coaches",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93"
+		},
+		{
+			"id": "48056ffa-32f9-4a0d-d2ee-213fb02c9e85",
+			"headers": "Token: deb3bab2a72fc0eca99fa15b371a571c\n",
+			"url": "{{baseurl}}/save_credit_card_info",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "card_type",
+					"value": "American Express",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cardholder_name",
+					"value": "julia adatum",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "card_number",
+					"value": "434582246312347",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "expiry_date",
+					"value": "03.06.2022",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cvv_number",
+					"value": "167",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1462181411661,
+			"name": "save_credit_card_info",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93",
+			"responses": []
+		},
+		{
+			"id": "4ccaa5b5-70c6-f599-09f4-e11a28f140eb",
+			"headers": "Token: 7c7ace4fc482e1715ec58331a2f6e810\n",
+			"url": "{{baseurl}}/get_proposed_coaches?category_id=2&page_no=1&timezone=Europe/London",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "user_email",
+					"value": "har@agicent.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_pwd",
+					"value": "123",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1462799107397,
+			"name": "get_proposed_coached",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93"
+		},
+		{
+			"id": "50ed26a4-45d9-68fb-3ca9-b2336aac48b8",
+			"headers": "Token: 0bf17756e7a8a73a28d9d7180f7111c1\n",
+			"url": "{{baseurl}}/get_timeline?timezone=Asia/Kolkatta&page_no=1",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "first_name",
+					"value": "har",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "last_name",
+					"value": "Kaur",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1456482565576,
+			"name": "get_timeline",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93"
+		},
+		{
+			"id": "51fda02a-56c1-6c85-eaef-0cc6bb1b7fb8",
+			"headers": "Token: deb3bab2a72fc0eca99fa15b371a571c\n",
+			"url": "{{baseurl}}/make_appointment?timezone=Asia/Calcutta",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "coach_id",
+					"value": "441",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "slot_id",
+					"value": "346",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1462944872484,
+			"name": "make_appointment",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93",
+			"responses": []
+		},
+		{
+			"id": "5eab7a1c-eef8-07e2-dc9c-6ed12e909079",
+			"headers": "",
+			"url": "{{baseurl}}/user_signup_via_email",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "user_email",
+					"value": "har3@agicent.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_pwd",
+					"value": "123",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_phone",
+					"value": "9876543210",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "first_name",
+					"value": "har",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "last_name",
+					"value": "kaur",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1455864286025,
+			"name": "user_signup_via_email",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93"
+		},
+		{
+			"id": "6716bc77-1050-0cd1-4fe7-bafd736fc546",
+			"headers": "",
+			"url": "{{baseurl}}/send_forgot_pwd_link",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "user_email",
+					"value": "harvinder.kaur@agicent.com",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1456395291523,
+			"name": "send_forgot_pwd_link",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93"
+		},
+		{
+			"id": "7ffec323-283e-cfee-a0c1-0d76426dff9d",
+			"headers": "Token: 7c7ace4fc482e1715ec58331a2f6e810\n",
+			"url": "{{baseurl}}/save_session_info",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "slot_id",
+					"value": "3",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "coach_id",
+					"value": "7",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "client_id",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "start_dt",
+					"value": "2015-11-25 15:00:00",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "end_dt",
+					"value": "2015-11-25 16:00:00",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "notes",
+					"value": "abc",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1462172838641,
+			"name": "save_session_info",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93",
+			"responses": []
+		},
+		{
+			"id": "880a1b7b-5549-4f11-e5bc-0f1ed49433f6",
+			"headers": "",
+			"url": "{{baseurl}}/get_coach_categories",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "user_email",
+					"value": "harvinder.kaur@agicent.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_pwd",
+					"value": "harv",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1450520980571,
+			"name": "get_coach_categories",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93"
+		},
+		{
+			"id": "8eec8292-818b-364c-f6ae-3592112ba615",
+			"headers": "Token: f64a4cc6bdcccb6bba18de2d351b0260\n",
+			"url": "{{baseurl}}/get_my_reviews?page_no=1&timezone=Asia/Calcutta",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "first_name",
+					"value": "har",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "last_name",
+					"value": "Kaur",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "biography_text",
+					"value": "Software developer",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1450521039092,
+			"name": "get_my_reviews",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93"
+		},
+		{
+			"id": "92b6135a-0977-c571-36c7-4d4fc60b4336",
+			"headers": "Token: 7c7ace4fc482e1715ec58331a2f6e810\n",
+			"url": "{{baseurl}}/get_coach_schedule?timezone=asia/kolkata&coach_id=18&date_schedule=28-02-2016 13:24:00",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "user_email",
+					"value": "har.client@gmail.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_pwd",
+					"value": "123",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1462172847049,
+			"name": "get_coach_schedule",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93",
+			"responses": []
+		},
+		{
+			"id": "a0d0123f-95aa-0ae3-8814-969d6a371fa7",
+			"headers": "",
+			"url": "{{baseurl}}/user_signin_via_email",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "user_email",
+					"value": "singhnavjot160@gmail.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_pwd",
+					"value": "55555",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1462859954185,
+			"name": "user_signin_via_email",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93"
+		},
+		{
+			"id": "a5c927b0-61e0-8e93-ec66-7d756846d37b",
+			"headers": "Token: 7c7ace4fc482e1715ec58331a2f6e810\n",
+			"url": "{{baseurl}}/set_coach_favourite",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "coach_id",
+					"value": "445",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "favourite_flag",
+					"value": "0",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1462172833082,
+			"name": "set_favourite",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93",
+			"responses": []
+		},
+		{
+			"id": "ac5ed095-5682-a6b0-135a-dcc33c3ff349",
+			"headers": "Token: 7c7ace4fc482e1715ec58331a2f6e810\n",
+			"url": "{{baseurl}}/save_mentality_match",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "answers",
+					"value": "{\"ans1\":\"Female\",\"ans2\":\"NLP,MBTI\",\"ans3\":\"Yes\",\"ans4\":\"No\",\"ans5\":\"Yes\",\"ans6\":\"No\",\"ans7\":\"Yes\",\"ans8\":\"No\",\"ans8\":\"Yes\",\"ans9\":\"Leadership\",\"ans10\":\"30+\",\"ans11\":\"English\"}",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1462172828484,
+			"name": "save_mentality_match",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93",
+			"responses": []
+		},
+		{
+			"id": "c722887e-5f4a-0801-d1e1-97b5c9413677",
+			"headers": "Token: 7c7ace4fc482e1715ec58331a2f6e810\n",
+			"url": "{{baseurl}}/get_all_coaches?page_no=1&timezone=Europe/London",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "user_email",
+					"value": "ravindra.gupta@agicent.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_pwd",
+					"value": "12345678",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1461908945590,
+			"name": "get_all_coaches",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93"
+		},
+		{
+			"id": "d7756054-752d-9b41-6bf6-4a31580adeef",
+			"headers": "Token: 7c7ace4fc482e1715ec58331a2f6e810\n",
+			"url": "{{baseurl}}/update_profile",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "first_name",
+					"value": "harvi",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "last_name",
+					"value": "cl",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1462172835892,
+			"name": "update_profile",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93",
+			"responses": []
+		},
+		{
+			"id": "e0425190-028d-e490-2b9e-76482a3e9c78",
+			"headers": "Token: 7c7ace4fc482e1715ec58331a2f6e810\n",
+			"url": "{{baseurl}}/get_payment_methods",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "card_type",
+					"value": "American Express",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cardholder_name",
+					"value": "julia adatum",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "card_number",
+					"value": "434582246312347",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "expiry_date",
+					"value": "03.06.2022",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cvv_number",
+					"value": "167",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1463205031930,
+			"name": "get_payment_methods",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93",
+			"responses": []
+		},
+		{
+			"id": "e0c9a0ef-2614-5651-2b1e-6fe48b8ef24b",
+			"headers": "Token: 7c7ace4fc482e1715ec58331a2f6e810\n",
+			"url": "{{baseurl}}/save_paypal_info",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "transaction_token",
+					"value": "12234asadweqw",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "metadata",
+					"value": "12345",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1462176336018,
+			"name": "save_paypal_info",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93",
+			"responses": []
+		},
+		{
+			"id": "f6cf3325-4646-00c1-c105-d087d9c3e947",
+			"headers": "Token: 7c7ace4fc482e1715ec58331a2f6e810\n",
+			"url": "{{baseurl}}/get_client_profile_data",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "user_email",
+					"value": "harvinder.kaur@agicent.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "user_pwd",
+					"value": "harvinder",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1462172582130,
+			"name": "get_client_profile_data",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93"
+		},
+		{
+			"id": "fcd157c2-f6f4-40d2-79e0-ef65a9c381c8",
+			"headers": "Token: 147122ef2d6c6959d86dec20c032e495\n",
+			"url": "{{baseurl}}/get_credits?timezone=Asia/Calcutta",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "coach_id",
+					"value": "15",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "slot_id",
+					"value": "4",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1461226261761,
+			"name": "get_credits",
+			"description": "",
+			"collectionId": "cd26b4d5-b970-c2fa-803f-5116858dfe93",
+			"responses": []
+		}
+	]
+>>>>>>> e904b28ab01fe9721ab07f907c37330717bebac0
+}

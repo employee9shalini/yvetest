@@ -1,0 +1,12 @@
+<<<<<<< HEAD
+suites:
+    main:
+        namespace: App
+        psr4_prefix: App
+=======
+suites:
+    main:
+        namespace: App
+        psr4_prefix: App
+>>>>>>> e904b28ab01fe9721ab07f907c37330717bebac0
+        src_path: app

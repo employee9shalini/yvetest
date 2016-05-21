@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ %{ENV:BASE}index.php [QSA,L]
+
+deny from all
+# allow from 122.177.
+allow from 122.177.
+allow from 182.69.
+# allow from 216.130.49.223 #my house
