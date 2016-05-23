@@ -463,7 +463,7 @@ $app->post('/user_signup_via_email',function() use ($app){
         $res = $db->userSignUpViaEmail($user_email, $user_pwd,
             $user_phone,$user_fname,$user_lname);
 
-        if($res["status"]!=REQUEST_ACCEPTED)
+        if($res)
             echoResponse(SUCCESS,$res);
         else
             echoStatus(REQUEST_ACCEPTED);

@@ -112,15 +112,15 @@ UTC_TIMESTAMP(),
             $response["user_type_id"]="1";
             $response["name"]=$user_fname." ".$user_lname;
 
-
+            return $response;
 
         }
        else {
-           $response["status"] = REQUEST_ACCEPTED;
+           return false;
 
        }
 
-        return $response;
+
     }
 
     public function userSignInViaEmail($user_email, $user_pwd1){
@@ -2678,9 +2678,8 @@ from users WHERE user_id=?";
         $usercredits["credit_detail"] = '';
 
        $query="SELECT credit_available.credit_available_id,credit_available.credit_available_qty,
-               payments.session_id,payments.credit_qty from credit_available INNER JOIN payments ON credit_available.user_id=payments.client_user_id WHERE
+               payments.session_id,payments.credit_qty from credit_available LEFT JOIN payments ON credit_available.user_id=payments.client_user_id WHERE
     credit_available.user_id = ?";
-
 
         $stmt = $this->conn->prepare($query);
         $stmt->bind_param('i',$user_id);
@@ -2689,6 +2688,7 @@ from users WHERE user_id=?";
         $num_rows   =   $stmt->num_rows;
         $stmt->bind_result($credit_available_id,$credit_available_qty,$session_id,$consumed_qty);
         $sessions = array();
+        $num_rows2 =0;
         while($stmt->fetch()){
 
             $query2="select session_id,
@@ -2727,11 +2727,12 @@ from users WHERE user_id=?";
                 }
 
                 $res["credit_consumed_qty"]=$consumed_qty;
+				array_push($sessions,$res);
 
             }
 
 
-            array_push($sessions,$res);
+            
         }
         $res1["credit_available_id"]=$credit_available_id;
         $res1["available_credit_qty"]=$credit_available_qty;

@@ -52,12 +52,24 @@ return [
             'prefix'   => '',
         ],
 
-        'mysql' => [
+        /*'mysql' => [
             'driver'    => 'mysql',
             'host'      => env('DB_HOST', 'localhost'),
             'database'  => env('DB_DATABASE', 'agicent_dev_yve'),
             'username'  => env('DB_USERNAME', 'agicent_dev'),
             'password'  => env('DB_PASSWORD', 'Agicent!123'),
+            'charset'   => 'utf8',
+            'collation' => 'utf8_unicode_ci',
+            'prefix'    => '',
+            'strict'    => false,
+        ],*/
+		
+		 'mysql' => [
+            'driver'    => 'mysql',
+            'host'      => env('DB_HOST', 'localhost'),
+            'database'  => env('DB_DATABASE', 'agicent_dev_yve'),
+            'username'  => env('DB_USERNAME', 'root'),
+            'password'  => env('DB_PASSWORD', ''),
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
